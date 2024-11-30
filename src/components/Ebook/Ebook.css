@@ -25,5 +25,33 @@
   padding: 20px 100px;
   font-size: 20px;
   width: 30%;
-line-height: 1.5;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 1500px) {
+  .ebook {
+    min-width: fit-content;
+    flex-wrap: wrap;
+  }
+
+  .ebook__img-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .ebook__bio {
+    padding: 20px 100px;
+    font-size: 20px;
+    width: auto;
+    line-height: 1.5;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .ebook__cover {
+    width: 400px;
+    height: 600px;
+    justify-content: center;
+  }
 }

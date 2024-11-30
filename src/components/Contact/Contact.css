@@ -90,3 +90,17 @@
   font-size: 18px;
   border-radius: 6px;
 }
+
+@media screen and (max-width: 1000px) {
+  .contact__container {
+    min-width: fit-content;
+    flex-direction: column;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contact {
+    min-width: fit-content;
+  }
+}
