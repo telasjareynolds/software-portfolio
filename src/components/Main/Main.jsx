@@ -13,6 +13,7 @@ function Main() {
 
   return (
     <section className="main">
+      <div className="main__container">
       {/* Headshot image */}
       <img src={headshot} alt="Telasja Reynolds" className="main__headshot" />
 
@@ -107,6 +108,7 @@ function Main() {
             </li>
           </ul>
         </div>
+      </div>
       </div>
     </section>
   );

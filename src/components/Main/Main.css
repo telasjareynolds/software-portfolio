@@ -7,6 +7,10 @@
   box-shadow: 2px -1px 30px 8px rgb(248, 248, 248);
 }
 
+.main__container {
+  display: flex;
+  flex-direction: row;
+}
 .main__title {
   color: bisque;
   font-size: 3rem;
@@ -97,11 +101,16 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    min-width: fit-content;
+    margin: 20px 0;
+    padding: 0;
   }
 
   .main__headshot {
     margin-bottom: 30px;
     margin: 0;
+    width: 200px;
+    height: 200px;
   }
 
   .main__skills-title {
@@ -111,10 +120,11 @@
   .main__skills-tab {
     justify-content: center;
   }
-}
-
-@media screen and (max-width: 500px) {
-  .main {
+  .main__container {
+    flex-direction: column;
     min-width: fit-content;
+    justify-content: center;
+    margin: 20px 0;
+    align-items: center;
   }
 }
