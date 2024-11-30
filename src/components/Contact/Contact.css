@@ -1,0 +1,92 @@
+.contact {
+  background: rgba(0, 0, 0, 0.847);
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contact__container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact__title {
+  color: bisque;
+  font-size: 26px;
+}
+
+.contact__info {
+  font-size: 18px;
+  color: white;
+  transition: tranform 0.5s;
+}
+
+.contact__info:hover {
+  color: #ff004f;
+  font-size: 20px;
+  transform: translateY(-5px);
+}
+
+.contact-left {
+  flex-basis: 35%;
+}
+.contact-right {
+  flex-basis: 60%;
+}
+.contact-left p {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.contact__social-icons {
+  margin-top: 20px;
+}
+.contact__social-icons a {
+  text-decoration: none;
+  font-size: 30px;
+  margin-right: 15px;
+  color: #ababab;
+  display: inline-block;
+  transition: tranform 0.5s;
+}
+.contact__social-icons a:hover {
+  color: #ff004f;
+  transform: translateY(-5px);
+}
+.btn {
+  display: inline-block;
+  margin: 20px auto auto;
+  width: fit-content;
+  border-radius: 6px;
+  background: #ff004f;
+  color: white;
+  text-decoration: none;
+  font-weight: 300;
+  padding: 14px 60px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  font-size: 25px;
+  transform: translateY(-5px);
+}
+.contact-right form {
+  width: 100%;
+}
+
+.contact__input {
+  width: 100%;
+  border: 0;
+  outline: none;
+  background: bisque;
+  padding: 15px;
+  margin: 15px 0;
+  color: black;
+  font-size: 18px;
+  border-radius: 6px;
+}

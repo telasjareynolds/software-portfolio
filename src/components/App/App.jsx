@@ -4,22 +4,21 @@ import Header from "../Header/Header";
 import Background from "../Main/Background";
 import Main from "../Main/Main";
 import Projects from "../Projects/Projects";
-
+import Contact from "../Contact/Contact";
+import Ebook from "../Ebook/Ebook";
 
 function App() {
   return (
     <div className="app">
-     
       <Header />
-      <Background/>
-       <Routes>
+      <Background />
+      <Routes>
         <Route path="/" element={<Main />} />
-         <Route path="/projects" element={<Projects />} />
-       {/* <Route path="/contact" element={<Contact />} />
-        <Route path="/ebook" element={<Ebook />} /> */}
-      </Routes> 
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/ebook" element={<Ebook />} />
+      </Routes>
     </div>
-  
   );
 }
 

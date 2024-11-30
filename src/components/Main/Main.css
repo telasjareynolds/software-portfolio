@@ -3,7 +3,8 @@
   position: absolute;
   display: flex;
   padding: 100px 50px 50px;
-  background-color: rgba(0, 0, 0, 0.858);
+  background-color: rgba(0, 0, 0, 0.929);
+  box-shadow: 2px -1px 30px 8px rgb(248, 248, 248);
 }
 
 .main__title {
@@ -57,7 +58,7 @@
 
 .main__skills-tab:hover {
   transform: translateY(-5px) scale(1.1); /* Scale button slightly */
-  background-color: rgb(29, 202, 255); /* Change color on hover */
+  background-color: rgb(8, 238, 238); /* Change color on hover */
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   color: black;
 }

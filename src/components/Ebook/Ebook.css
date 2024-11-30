@@ -1,0 +1,29 @@
+.ebook {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.816);
+  flex-direction: column;
+}
+
+.ebook__img-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  box-shadow: 10px -10px 30px 8px white;
+}
+
+.ebook__cover {
+  width: 40vh;
+  height: 60vh;
+}
+
+.ebook__bio {
+  color: white;
+  text-wrap: wrap;
+  text-align: center;
+  padding: 20px 100px;
+  font-size: 20px;
+  width: 30%;
+line-height: 1.5;
+}
