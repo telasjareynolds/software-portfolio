@@ -2,6 +2,7 @@ import Logo from "../../assets/Logo.png";
 import "./Header.css";
 import { NavLink } from "react-router-dom";
 import resume from "../../assets/resume.pdf";
+
 function Header() {
   return (
     <header className="header">

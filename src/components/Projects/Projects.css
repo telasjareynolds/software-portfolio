@@ -10,7 +10,7 @@
 
 .projects__card {
   width: 490px;
-  min-height: 440px;
+  min-height: 500px;
   background: black;
   color: white;
   border: rgba(1, 5, 6, 0.901) solid 2px;
@@ -20,8 +20,8 @@
 }
 
 .projects__card:hover {
-  transform: translateY(-5px) scale(1.1); /* Scale button slightly */
-  background-color: rgb(29, 202, 255); /* Change color on hover */
+  transform: translateY(-5px) scale(1.1); 
+  background-color: rgb(29, 202, 255); 
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   color: black;
 }
