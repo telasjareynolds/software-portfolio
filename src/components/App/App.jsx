@@ -1,7 +1,7 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Header from "../Header/Header";
-import Background from "../Main/Background";
+import Background from "../Background/Background";
 import Main from "../Main/Main";
 import Projects from "../Projects/Projects";
 import Contact from "../Contact/Contact";
