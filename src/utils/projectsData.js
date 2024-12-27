@@ -31,7 +31,7 @@ export const projects = [
     description:
       "I created Movie Maze to help movie enthusiasts discover and keep track of the world of cinema. Built using the OMDB third-party API and an in-progress custom REST API, it offers features like a curated home page of fan-favorite films, a personal watchlist for saving and managing movies, and detailed movie pages with comprehensive information about cast, crew, and storylines. Users can easily log in to sync their watchlist across devices and securely manage their accounts, while a robust search bar ensures they can quickly find any movie they’re looking for. As a software developer with a background in film production, I combined my passion for storytelling with technical expertise to create a seamless and engaging user experience for all movie lovers.",
     image: movieMazeImage,
-    link: "https://telasjareynolds.github.io/movie-maze-frontend/",
+    link: "https://movie-maze.twilightparadox.com",
     repo: "https://github.com/telasjareynolds/movie-maze-frontend",
   },
   {
